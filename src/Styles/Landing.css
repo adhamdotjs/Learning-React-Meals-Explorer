@@ -1,0 +1,83 @@
+.hero {
+	margin-bottom: 50px;
+}
+
+.hero .container .content {
+	background-image: var(--main-gradient);
+	padding: 30px;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 0 0 100px 100px;
+	-webkit-border-radius: 0 0 100px 100px;
+	-moz-border-radius: 0 0 100px 100px;
+	-ms-border-radius: 0 0 100px 100px;
+	-o-border-radius: 0 0 100px 100px;
+}
+
+.hero .container .content .text {
+	width: 70%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.hero .container .content .text h1 {
+	color: #fff;
+	font-size: 35px;
+	text-transform: uppercase;
+	padding-bottom: 15px;
+	line-height: 1.4;
+}
+
+.hero .container .content .text h1 span {
+	display: block;
+	font-size: 60px;
+	/* color: orange; */
+}
+
+.hero .container .content .text img {
+	width: 300px;
+	animation: spin 5s infinite linear;
+	-webkit-animation: spin 5s infinite linear;
+}
+
+.hero .container .content select {
+	margin-top: 20px;
+	padding: 10px 50px;
+	font-size: 16px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	background-color: var(--dark-color);
+	color: #fff;
+	cursor: pointer;
+	transition: var(--main-transition);
+	-webkit-transition: var(--main-transition);
+	-moz-transition: var(--main-transition);
+	-ms-transition: var(--main-transition);
+	-o-transition: var(--main-transition);
+}
+
+.hero .container .content select:hover {
+	background-color: #32556b;
+}
+
+.hero .container .content select option {
+	background-color: #4a6e841a;
+	color: #fff;
+	text-align: left;
+}
+
+.hero .container .content select:focus {
+	outline: none;
+}
+
+@keyframes spin {
+	to {
+		rotate: 360deg;
+	}
+}
