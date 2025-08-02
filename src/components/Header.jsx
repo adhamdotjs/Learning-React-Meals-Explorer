@@ -15,7 +15,7 @@ function Header({ setSearchLetter }) {
 					<div className="image">
 						<a href="#">
 							<img
-								src="../../public/14852523_5528439.webp"
+								src="/14852523_5528439.webp"
 								alt="Logo"
 								loading="lazy"
 							/>
